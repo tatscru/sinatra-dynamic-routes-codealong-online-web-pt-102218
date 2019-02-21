@@ -22,7 +22,7 @@ class App < Sinatra::Base
     @num1 = params[:num1].to_i
     @num2 = params[:num2].to_i
     "#{@num1 * @num2}"
-    # we will first multiply the number BY integer, then include it in a string 
+    # we will first multiply the number BY integer, then include it in a string - 2-step 
   end 
 
 end
